@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/e-learning-redux-code/static/css/main.606405ab.css",
+    "main.js": "/e-learning-redux-code/static/js/main.e858243d.js",
+    "static/js/787.65cabe71.chunk.js": "/e-learning-redux-code/static/js/787.65cabe71.chunk.js",
+    "static/media/eLearning-Banner1.jpg": "/e-learning-redux-code/static/media/eLearning-Banner1.e8c4ee2ee53b02864070.jpg",
+    "index.html": "/e-learning-redux-code/index.html",
+    "main.606405ab.css.map": "/e-learning-redux-code/static/css/main.606405ab.css.map",
+    "main.e858243d.js.map": "/e-learning-redux-code/static/js/main.e858243d.js.map",
+    "787.65cabe71.chunk.js.map": "/e-learning-redux-code/static/js/787.65cabe71.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.606405ab.css",
+    "static/js/main.e858243d.js"
+  ]
+}
