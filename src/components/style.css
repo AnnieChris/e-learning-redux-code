@@ -12,6 +12,11 @@ header{
     width: 70%;
 }
 
+header.logo{
+    font-family: 'Dancing Script', cursive;
+    text-transform: uppercase;
+    text-shadow: 1px 2px 2px goldenrod
+}
 .top_header{
     background-color: darkslategrey;
     padding: 10px;
@@ -36,11 +41,11 @@ header{
 .login_form, .admin_login_form{
    
     position: absolute;
-    left: 32em;
+    left: 35%;
     padding: 20px;
-    top: 7em;
+    top: 20%;
     background: rgb(41 8 66);
-    width: 30em;
+    width: 35%;
     border-radius: 2em;
     box-shadow: 5px 2px 5px black;
     overflow: hidden;
@@ -104,10 +109,10 @@ input:hover{
 
 .registration{
     position: absolute;
-    top: 6em;
-    width: 75%;
-    left: 10em;
-    background: rgb(157, 130, 206);
+    top: 20%;
+    width: 70%;
+    left: 15%;
+    background: rgb(133 107 175);
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     box-shadow: 2px 3px 5px black;
@@ -117,7 +122,7 @@ input:hover{
     text-transform: uppercase;
 }
 .registration_form{
-    background-color: rgb(238 239 158);
+    background-color: rgb(205 185 217);
     padding: 20px;
 }
 .registration_form div{ 
@@ -139,6 +144,13 @@ input:hover{
     width: 15em;
     border-radius: 5px;
     border: 2px solid grey;
+}
+.registration_form div input:hover{
+    background-color: rgb(232, 241, 248);
+}
+.registration_form div input:focus{
+    background-color: rgb(228, 227, 212);
+  
 }
 div.gender_div{
     gap: 0;
@@ -165,12 +177,57 @@ div.gender_div input{
 .footer{
     background-color: gray;
 }
+
+/*User logged page*/
 .page_common{
     position: absolute; 
     display: grid;
-    top: 6em; 
-    width: 50em;
+    top: 20%; 
+    left: 10%;
+    width: 80%;
+    background-color: rgb(193, 200, 230);
+    padding: 20px;
+    text-align: left;
+    border-radius: 25px;
+    box-shadow: 2px 2px 3px rgb(83, 67, 83);
+}
+.user_enrollbtn{
+    display: flex;
+    padding: 40px;
+}
+.user_enrollbtn a{
+    background: #0f6b45;
+    width: 18%;
+    margin: auto;
+    padding: 5px;
+    box-shadow: 2px 2px 3px black;
+    border-radius: 25px;
+    text-decoration: none;
+
+}
+.user_enrollbtn a:hover{
+    background-color: #b6134f;
+}
+.user_enrollbtn button{
+    display: flex;
+    margin: auto;
+    background: none;
+    border: none;
+}
+.user_enrollbtn button:hover{
+    background: none;
 }
 .tableDefault{
     width: 100%;
+    text-align: center;
+}
+.user_courselist{
+    
+    width: 70%;
+    margin: auto;
+    padding: 10px;
+}
+.user_courselist h2{
+    text-align: center;
+    padding: 10px;
 }

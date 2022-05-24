@@ -19,10 +19,12 @@ function UserLoggedInPage(props) {
 
     return (
         <div  className='page_common'>
-            <h1>Welcome {user}</h1>
-            <Link to="/courses"><Button>Enroll New Course</Button></Link>
-            
-            <div>
+            <h1>Hello {user}</h1>
+            <h3>You have Successfully logged in &#9989;</h3>
+            <div className='user_enrollbtn'>
+                <Link to="/courses"><Button>Enroll New Course</Button></Link>
+            </div>
+            <div className='user_courselist'>
                 <h2>Enrolled Courses</h2>
                 <table className='tableDefault'>
                     <thead>

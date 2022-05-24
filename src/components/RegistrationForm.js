@@ -66,7 +66,7 @@ const RegistrationForm =()=>
                 </div>
                 <div>
                 <label htmlFor='contact'>Contact</label>
-                <input type="number" value={contact} placeholder="enter contact" onChange={(e) => setContact(e.target.value)} required/>
+                <input type="number" min="1" max="10" value={contact} placeholder="enter contact" onChange={(e) => setContact(e.target.value)} required/>
                 </div>
                 <div>
                 <label htmlFor='dob'>Date Of Birth</label>
