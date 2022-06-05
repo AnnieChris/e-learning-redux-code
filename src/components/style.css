@@ -2,6 +2,7 @@ body
 {
     background-color:indigo ;
 }
+.App h1{text-transform: capitalize;}
 header{
     text-align: left;
     color: white;
@@ -92,7 +93,7 @@ input:hover{
 }
 .banner_img img{
     width: 100%;
-    height: 42em;
+    height: 50em;
 }
 .register_home_btn{
     position:absolute;
@@ -110,67 +111,88 @@ input:hover{
 .registration{
     position: absolute;
     top: 20%;
-    width: 70%;
-    left: 15%;
-    background: rgb(133 107 175);
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
+    width: 65%;
+    left: 18%;
+    background: rgb(32 35 72);
+    border-radius: 35px 35px 5px 5px;
     box-shadow: 2px 3px 5px black;
+    display: inline-grid;
 }
 .registration h3{
     padding: 10px;
     text-transform: uppercase;
+    color: thistle
 }
 .registration_form{
-    background-color: rgb(205 185 217);
+    background-color: rgb(185 199 217);
     padding: 20px;
-}
-.registration_form div{ 
-    display: flex;
-    flex-flow: row;
-    gap: 1em;
-    padding: 10px;
-
-}
-.registration_form div label{
-    width: 10em;
-    padding: 10px;
-
+    text-align: left;
+    display: inline-grid;
+    
 }
 
-.registration_form div input{
+.registration_form input{
 
     padding: 10px;
-    width: 15em;
     border-radius: 5px;
     border: 2px solid grey;
+    margin: 5px 10px;
+    background-color: rgb(236, 232, 232);
+    width: 15em;
 }
-.registration_form div input:hover{
+.registration_form input:hover{
     background-color: rgb(232, 241, 248);
 }
-.registration_form div input:focus{
-    background-color: rgb(228, 227, 212);
+.registration_form input:focus{
+    background-color: rgb(255, 254, 241);
   
 }
-div.gender_div{
-    gap: 0;
+.registration_form select{
+    padding: 10px;
+    border: 2px solid grey;
+    border-radius: 5px;
+    margin:5px 10px;
 }
-div.gender_div input{
-    width: 3em;
+.registration_form td{
+    width: 5em;
 }
-
+.useraddress input{
+    width: 75%;
+}
+.useraddress_zipcode input[type=number]{
+    width: 10em;
+}
+.gender_radiobtn input[type=radio]{
+    height: 18px;
+    width: 18px;
+}
+td.regbtn{text-align: center;}
 .register_btn{
     padding: 10px;
-    border-radius: 10px;
-    width: 7em;
-    margin: 10px 0px;
+    border-radius: 30px;
+    width: 10em;
+    margin: 20px 0px;
     background-color: #a9003e;
     color: aliceblue;
     text-transform: uppercase;
-    border: 1px solid grey;
+    border: none;
+    box-shadow: 2px 3px 7px black;
 }
 .register_btn:hover{
     background-color: #1eaa7b;
+}
+
+/*Invalid login page*/
+
+.invalid_userloginpage button{
+    width: 20%;
+    padding: 12px;
+    border-radius: 30px;
+    background: darkmagenta;
+    text-transform: uppercase;
+    box-shadow: 2px 3px 5px black;
+    border: 2px blue;
+    color: aliceblue;
 }
 
 /*Footer*/
@@ -191,13 +213,14 @@ div.gender_div input{
     border-radius: 25px;
     box-shadow: 2px 2px 3px rgb(83, 67, 83);
 }
+.page_common h1{ text-transform: capitalize;}
 .user_enrollbtn{
     display: flex;
     padding: 40px;
 }
 .user_enrollbtn a{
     background: #0f6b45;
-    width: 18%;
+    width: 12em;
     margin: auto;
     padding: 5px;
     box-shadow: 2px 2px 3px black;
@@ -230,4 +253,59 @@ div.gender_div input{
 .user_courselist h2{
     text-align: center;
     padding: 10px;
+}
+
+.user_navbar{
+    display: inline-flex;
+    width: 100%;
+    overflow: hidden;
+    margin: 0px 0px 10px 0px;
+    padding: 5px;
+}
+.user_navbar a{
+    margin: 0px 10px 0px 5px;
+    color: #a9003e;
+    text-decoration: none;
+}
+.user_navbar a:hover{
+    text-decoration: underline;
+    
+}
+.user_lgout{
+    display: inline-flex;
+    justify-content: right;
+    flex: auto;
+}
+.user_lgout p{
+    margin: 10px; 
+    text-transform: capitalize;
+}
+.user_lgout button{
+    background-color: darkorchid;
+    border: none;
+    width: 15%;
+    border-radius: 25px;
+    color: white;
+    box-shadow: 1px 2px 1px black;
+}
+.user_lgout button:hover{
+    background-color: rgb(102, 114, 184);
+}
+/*Courses Page */
+.invalid_userloginpage, .courses_page, .profile_page, .contactus_page{
+    background-color:rgb(193, 200, 230);
+    position: absolute;
+    width: 80%;
+    top: 20%;
+    left: 10%;
+    padding: 20px;
+    text-align: left;
+    border-radius: 25px;
+    box-shadow: 2px 2px 3px rgb(83 67 83);
+    text-align: center;
+    
+}
+.courses_page h1{ text-align: center;}
+.socialmedia_links a{
+    margin: 10px;
 }

@@ -5,6 +5,8 @@ import { currentUser } from '../store/Reducer';
 import {BrowserRouter as Router, Link, Route, Routes} from 'react-router-dom';
 import http from "../store/http-common";
 
+import UserNavBar from './UserNavBar';
+
 function UserLoggedInPage(props) {
 
     const user = useSelector(state => state.loggedinUser);   
@@ -19,6 +21,7 @@ function UserLoggedInPage(props) {
 
     return (
         <div  className='page_common'>
+            <UserNavBar/>
             <h1>Hello {user}</h1>
             <h3>You have Successfully logged in &#9989;</h3>
             <div className='user_enrollbtn'>
