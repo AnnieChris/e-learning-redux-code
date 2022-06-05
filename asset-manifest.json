@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/e-learning-redux-code/static/css/main.f457e645.css",
-    "main.js": "/e-learning-redux-code/static/js/main.2e5829bb.js",
+    "main.css": "/e-learning-redux-code/static/css/main.8e204558.css",
+    "main.js": "/e-learning-redux-code/static/js/main.f4afecf7.js",
     "static/js/787.65cabe71.chunk.js": "/e-learning-redux-code/static/js/787.65cabe71.chunk.js",
     "static/media/eLearning-Banner1.jpg": "/e-learning-redux-code/static/media/eLearning-Banner1.e8c4ee2ee53b02864070.jpg",
     "index.html": "/e-learning-redux-code/index.html",
-    "main.f457e645.css.map": "/e-learning-redux-code/static/css/main.f457e645.css.map",
-    "main.2e5829bb.js.map": "/e-learning-redux-code/static/js/main.2e5829bb.js.map",
+    "main.8e204558.css.map": "/e-learning-redux-code/static/css/main.8e204558.css.map",
+    "main.f4afecf7.js.map": "/e-learning-redux-code/static/js/main.f4afecf7.js.map",
     "787.65cabe71.chunk.js.map": "/e-learning-redux-code/static/js/787.65cabe71.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f457e645.css",
-    "static/js/main.2e5829bb.js"
+    "static/css/main.8e204558.css",
+    "static/js/main.f4afecf7.js"
   ]
 }
